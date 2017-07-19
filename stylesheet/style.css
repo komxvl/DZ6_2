@@ -1,0 +1,118 @@
+.table{
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid black;
+}
+.table td, .table th{
+    padding:5px 10px;
+    border: 1px solid black;
+}
+.table > tbody > tr > td:first-child{
+    text-align: left;
+}
+.android-table , .raiting-table{
+    width:30%;
+    font-family: sans-serif;
+     border-spacing: 0;
+}
+.android-table>tbody>tr>td, .android-table>tbody>tr>th, .android-table>thead>tr>th , .raiting-table>tbody>tr>td, .raiting-table>tbody>tr>th, .raiting-table>thead>tr>th{
+    padding:12px;
+}
+.android-table>thead>tr>th , .raiting-table>thead>tr>th{
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.raiting-table>tbody>tr>td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.box{
+    width: 45%;
+    box-shadow: 0px 0px 31px -4px rgba(0,0,0,0.75);
+    padding: 20px 20px 30px 20px;
+    border-radius: 5px;
+    position:relative;
+}
+.btn-close{
+    background: black;
+    color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    padding: 1px 5px !important;
+    font-weight: bold;
+    border-style: none;
+    border: 2px solid #fff;
+    z-index: 999;
+    box-shadow: 0px 0px 31px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+.toys{
+    font-family: sans-serif;
+     border-spacing: 0;
+     /* width:50%;*/
+      text-align: left;
+       border-collapse: collapse;
+         border-spacing: 0;
+}
+.toys>tbody>tr{
+     border-top: 2px solid #ddd;
+}
+.toys>tbody>tr>td , .toys>thead>tr>th{
+    padding:10px;
+}
+.toys>tbody>tr>td:first-child{
+    color:red;
+}
+
+.toys button{
+     border: none;
+    color: #fff;
+    /*font-size: 20px;*/
+    padding: 4px 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-operation ,.btn-minus{
+    background: #E7242A;
+}
+.btn-del{
+    background: #DC4E45;
+}
+.total{
+        text-align: right;
+    margin-right: 55px;
+    padding-right:10px;
+    border-right: 5px solid #efefef;
+}
+.all-sum{
+    font-weight: bold;
+    font-family: sans-serif;
+        margin-top: 20px;
+            margin-bottom: 0px;
+}
+.stock-sum{
+    color:grey;
+     font-family: sans-serif;
+     font-size: 15px;
+         margin-top: 10px;
+}
+.trash{
+    text-align: center;
+        margin-top: 60px;
+}
+.trash a{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+}
+
+
